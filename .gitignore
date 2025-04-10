@@ -2,6 +2,13 @@
 
 # dependencies
 node_modules/
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 # Expo
 .expo/
@@ -16,6 +23,14 @@ expo-env.d.ts
 *.p12
 *.key
 *.mobileprovision
+
+# Next.js
+server/.next/
+server/out/
+server/build
+server/.vercel
+server/coverage
+server/next-env.d.ts
 
 # Metro
 .metro-health-check*
